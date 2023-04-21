@@ -1,0 +1,30 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+body {
+	/* background-color: rgb(60, 58, 62); */
+}
+body h1 {
+	text-align: center;
+	margin: 30px;
+	/* color: lightblue; */
+}
+.countries {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+}
+.country {
+	border: 1px solid darkblue;
+	background-color: azure;
+	padding: 20px 0;
+	border-radius: 5px;
+	margin: 10px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+.country img {
+	width: 250px;
+}
